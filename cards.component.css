@@ -1,0 +1,39 @@
+
+
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("https://www.bunburymail.com.au/images/transform/v1/crop/frm/olivia.henry/89377f56-c1a3-411f-a166-c30c7b408ecb.jpg/r0_312_6000_3687_w1200_h678_fmax.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+    box-shadow: 1px 10px beige;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+      
+    box-shadow: 10px 10px 5px rgba(92, 88, 88, 0.411);
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    padding: 30px;
+    text-align: center;
+  }

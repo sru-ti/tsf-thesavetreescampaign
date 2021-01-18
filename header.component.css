@@ -1,0 +1,33 @@
+
+
+/* .navbar-brand */
+ .container-md{
+    color:rgb(161, 231, 55);
+    font-family: Copperplate, Papyrus, fantasy;
+    font:border 0.5 white;
+    /* text-shadow: 0 0 9px brown, 0 0 100px #0000FF;    */
+    /*text-shadow: h-shadow v-shadow blur-radius color|initial|inherit;
+      'Franklin Gothic Medium'; */
+    font-size: 2cm;
+    color: rgb(161, 231, 55);
+  text-shadow:
+   -3px -1px 0 rgb(75, 6, 6),  
+    4px -4px 0 rgb(54, 1, 1),
+    -2px 2px 0 rgb(54, 1, 1),
+     1px 3px 0 rgb(82, 18, 10);
+ }  
+ .headerr{
+    
+    /* background-color:rgb(32, , ); */
+    text-align: center;
+    text-shadow: 0 0 9px brown, 0 0 100px rgb(54, 1, 1);   
+    font-weight: bold;
+    /* display: inline-block;
+    padding: 10px;
+    margin: 0 5px;
+    border: 2px solid #111111; */
+    width: 100%;
+    padding: 12px;
+    
+
+ }
